@@ -1,0 +1,1 @@
+namespace todo;class Item specializes PersistentLibrary::Persistent {	public label: String;}

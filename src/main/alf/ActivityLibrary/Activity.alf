@@ -1,0 +1,8 @@
+namespace ActivityLibrary;
+
+class Activity {	public startActivity(in toStart: Activity, in params: String[*]) {		toStart.onStart(params);	}
+
+	public onStart(in params: String[*]) {
+		WriteLine("Activity start!");
+	}
+} 

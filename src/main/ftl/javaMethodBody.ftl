@@ -1,0 +1,6 @@
+${activity.code}
+<#--
+/*
+${activity.body}
+*/
+-->

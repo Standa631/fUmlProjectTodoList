@@ -1,0 +1,9 @@
+public import ActivityLibrary::Activity;public import todo::HelloActivity;
+
+active class App {
+	
+} do {
+    WriteLine("App start");        Activity ac = new Activity();    ac.startActivity(new HelloActivity(), null);
+
+    WriteLine("App end");
+}

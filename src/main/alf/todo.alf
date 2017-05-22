@@ -1,0 +1,1 @@
+package todo {	public class HelloActivity specializes ActivityLibrary::Activity;	public class ListActivity specializes ActivityLibrary::Activity;	public class DetailActivity specializes ActivityLibrary::Activity;	public class Item specializes PersistentLibrary::Persistent;}
