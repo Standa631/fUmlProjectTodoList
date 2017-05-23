@@ -8,13 +8,6 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.util.Log;
 
-//TODO
-import net.belehradek.fuml.todolist.fumlandroidtodolist.R;
-
-//TODO
-
-//Activity
-
 public class ListActivity extends AppCompatActivity {
 
     @Override
@@ -42,11 +35,8 @@ public ListActivity () {
 
     }
 
-public void goToDetailActivity (DetailActivity toStart, String[] params) {            
-            //Class<?> act = Class.forName("Model::todo::DetailActivity");
-            //Intent intent = new Intent(this, act);
-            
-            Intent intent = new Intent(this, DetailActivity.class);
+public void goToDetailActivity (net.belehradek.generated.todo.DetailActivity toStart, String[] params) {
+            Intent intent = new Intent(this, net.belehradek.generated.todo.DetailActivity.class);
             intent.putExtra("fUmlActivityParams", params);
             startActivity(intent);
     }
@@ -54,42 +44,38 @@ public void goToDetailActivity (DetailActivity toStart, String[] params) {
 public void onStart (String[] params) {
     	//TODO: implement operation
 
-String[] _tmp_1 = params;
+String[] _tmp_18 = params;
 Log.d("fUml", "ListActivity start!");
-showItems();
+this.showItems();
 
     }
 
 public void onItemClick (String[] id) {
     	//TODO: implement operation
 
-String[] _tmp_2 = id;
-goToDetailActivity(null, _tmp_2);
+String[] _tmp_19 = id;
+this.goToDetailActivity(null, _tmp_19);
 
     }
 
 public void onRemoveItemClick (String id) {
     	//TODO: implement operation
 
-String _tmp_3 = id;
-Item _tmp_4 = new Item();
-Item _tmp_5 = _tmp_4;
-showItems();
+String _tmp_20 = id;
+this.showItems();
 
     }
 
 public void onNewItemClick () {
     	//TODO: implement operation
 
-goToDetailActivity(null, null);
+this.goToDetailActivity(null, null);
 
     }
 
 public void showItems () {
     	//TODO: implement operation
 
-Item _tmp_6 = new Item();
-Item _tmp_7 = _tmp_6;
 
     }
 

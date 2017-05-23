@@ -8,13 +8,6 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.util.Log;
 
-//TODO
-import net.belehradek.fuml.todolist.fumlandroidtodolist.R;
-
-//TODO
-
-//Activity
-
 public class HelloActivity extends AppCompatActivity {
 
     @Override
@@ -36,12 +29,10 @@ public class HelloActivity extends AppCompatActivity {
     }
 
 
-    
-public void goToListActivity (ListActivity toStart, String[] params) {            
-            //Class<?> act = Class.forName("Model::todo::ListActivity");
-            //Intent intent = new Intent(this, act);
-            
-            Intent intent = new Intent(this, ListActivity.class);
+        public Integer r;
+
+public void goToListActivity (net.belehradek.generated.todo.ListActivity toStart, String[] params) {
+            Intent intent = new Intent(this, net.belehradek.generated.todo.ListActivity.class);
             intent.putExtra("fUmlActivityParams", params);
             startActivity(intent);
     }
@@ -49,16 +40,45 @@ public void goToListActivity (ListActivity toStart, String[] params) {
 public void onTime () {
     	//TODO: implement operation
 
-goToListActivity(null, null);
+this.goToListActivity(null, null);
+Integer _tmp_0 = 35;
+this.r = _tmp_0;
+net.belehradek.generated.todo.HelloActivity _tmp_1 = this;
+Integer _tmp_2 = _tmp_1.r;
+String _tmp_3 = String.valueOf(this.r);
+String _tmp_4 = "this.r: " + _tmp_3;
+Log.d("fUml", _tmp_4);
+Integer _tmp_5 = 10;
+Boolean _tmp_6 = _tmp_5 < 20;
+if (_tmp_6) {
+Log.d("fUml", "IF");
+}
+else if (true) {
+}
+Integer _tmp_7 = 0;
+Integer _tmp_8 = _tmp_7;
+while (true) {
+Integer _tmp_9 = _tmp_8;
+Boolean _tmp_10 = _tmp_9 < 10;
+if (!(_tmp_10)) break;
+String _tmp_11 = String.valueOf(_tmp_9);
+String _tmp_12 = "While: " + _tmp_11;
+Log.d("fUml", _tmp_12);
+Integer _tmp_13 = _tmp_9 + 1;
+Integer _tmp_14 = _tmp_13;
+_tmp_8 = _tmp_14;
+}
+Integer _tmp_15 = 0;
+Integer _tmp_16 = 0;
 
     }
 
 public void onStart (String[] params) {
     	//TODO: implement operation
 
-String[] _tmp_0 = params;
+String[] _tmp_17 = params;
 Log.d("fUml", "HelloActivity start!");
-onTime();
+this.onTime();
 
     }
 

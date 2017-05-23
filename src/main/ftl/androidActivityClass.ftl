@@ -8,10 +8,6 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.util.Log;
 
-<#list class.imports as im>
-//TODO
-</#list>
-
 ${class.visibility} class ${class.name} extends AppCompatActivity {
 
     @Override
