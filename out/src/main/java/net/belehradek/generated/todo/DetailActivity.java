@@ -38,28 +38,28 @@ public DetailActivity () {
 public void onStart (String[] params) {
     	//TODO: implement operation
 
-String[] _tmp_21 = params;
+String[] _tmp_18 = params;
 Log.d("fUml", "DetailActivity start!");
-this.showItem(_tmp_21);
+this.showItem(_tmp_18);
 
     }
 
 public void showItem (String[] id) {
     	//TODO: implement operation
 
-String[] _tmp_22 = id;
+String[] _tmp_19 = id;
 
     }
 
 public void addItem (String label) {
     	//TODO: implement operation
 
-String _tmp_23 = label;
-String _tmp_24 = _tmp_23;
-net.belehradek.generated.todo.Item _tmp_25 = new Item();
-net.belehradek.generated.todo.Item _tmp_26 = _tmp_25;
-_tmp_26.label = _tmp_24;
-_tmp_26.save();
+String _tmp_20 = label;
+String _tmp_21 = _tmp_20;
+net.belehradek.generated.todo.Item _tmp_22 = new Item();
+net.belehradek.generated.todo.Item _tmp_23 = _tmp_22;
+_tmp_23.label = _tmp_21;
+_tmp_23.save();
 
     }
 

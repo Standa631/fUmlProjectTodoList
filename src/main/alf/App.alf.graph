@@ -1,3 +1,51 @@
 <?xml version="1.0" encoding="ASCII"?>
 <graph:GModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:graph="http://de.tesis.dynaware.grapheditor.model/1.0">
+  <nodes id="Model::todo::HelloActivity" type="class-node" x="1534.0" y="1213.0">
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+  </nodes>
+  <nodes id="Model::todo::ListActivity" type="class-node" x="1742.0" y="1238.0">
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+  </nodes>
+  <nodes id="Model::todo::DetailActivity" type="class-node" x="1808.0" y="1452.0">
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+  </nodes>
+  <nodes id="Model::todo::Item" type="class-node" x="1544.0" y="1423.0">
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+    <connectors type="r-right-output"/>
+    <connectors type="l-left-input"/>
+  </nodes>
 </graph:GModel>

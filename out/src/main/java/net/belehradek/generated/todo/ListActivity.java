@@ -44,7 +44,7 @@ public void goToDetailActivity (net.belehradek.generated.todo.DetailActivity toS
 public void onStart (String[] params) {
     	//TODO: implement operation
 
-String[] _tmp_18 = params;
+String[] _tmp_15 = params;
 Log.d("fUml", "ListActivity start!");
 this.showItems();
 
@@ -53,15 +53,15 @@ this.showItems();
 public void onItemClick (String[] id) {
     	//TODO: implement operation
 
-String[] _tmp_19 = id;
-this.goToDetailActivity(null, _tmp_19);
+String[] _tmp_16 = id;
+this.goToDetailActivity(null, _tmp_16);
 
     }
 
 public void onRemoveItemClick (String id) {
     	//TODO: implement operation
 
-String _tmp_20 = id;
+String _tmp_17 = id;
 this.showItems();
 
     }
