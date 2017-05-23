@@ -3,6 +3,6 @@
 
 package ${class.packageName};
 
-${class.visibility}${class.isAbstract?then(' abstract', '')} class ${class.name} {
+${class.visibility}${class.isAbstract?then(' abstract', '')} class ${class.name}<#if class.generals> extends ${class.generals[0].qualifiedName}</#if> {
 <#include "javaClassBody.ftl">
 }

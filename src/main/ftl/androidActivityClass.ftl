@@ -8,15 +8,8 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.util.Log;
 
-//TODO
-import net.belehradek.fuml.todolist.fumlandroidtodolist.R;
-
 <#list class.imports as im>
 //TODO
-</#list>
-
-<#list class.generals as ge>
-//${ge.name}
 </#list>
 
 ${class.visibility} class ${class.name} extends AppCompatActivity {

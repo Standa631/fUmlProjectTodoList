@@ -1,5 +1,1 @@
-namespace PersistentLibrary;
-
-abstract class Persistent {
-	public save() {}	public delete() {}	public findById(in id: String): Persistent[0..1] {}	public getAll(): Persistent[*] {}
-}
+namespace PersistentLibrary;abstract class Persistent {	public save() {}	public delete() {}	public findById(in id: String): Persistent[0..1] {}	public listAll(): Persistent[*] {}}

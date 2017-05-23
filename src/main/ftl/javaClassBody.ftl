@@ -19,10 +19,6 @@
     ${op.name} (<#list op.parameters as p>${p.type} ${p.name}<#sep>, </#sep></#list>) {
     </@compress>
         <#if op.isStartActivity>
-            
-            //Class<?> act = Class.forName("${op.getStartActivity.qualifiedName}");
-            //Intent intent = new Intent(this, act);
-            
             Intent intent = new Intent(this, ${op.getStartActivity.name}.class);
             intent.putExtra("fUmlActivityParams", params);
             startActivity(intent);
